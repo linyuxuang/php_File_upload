@@ -95,7 +95,7 @@ php文件上传
              //  这样可以获取到文件名
              //   echo $_FILES["pic"]["name"];
 
-                //  把“ .”截取掉，
+                //  以“ . ”分割成数组，
                  //explode — 使用一个字符串分割另一个字符串
                  $arr= explode(".",$_FILES["pic"]["name"]) ;
 
